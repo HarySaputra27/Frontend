@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas akhir</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="typewriter">
+    <section>
+      <header>
+        <nav class="page-header">
+          <div class="logo">
+            <a href="#Home"
+              ><span style="color: #e4e422">INDO.</span>COFFEE<i
+                class="bx bxs-coffee"
+              ></i
+            ></a>
+          </div>
+          <input type="checkbox" id="click" />
+          <label for="click" class="mainicon">
+            <div class="menu">
+              <i class="bx bx-menu"></i>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#products">My Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <label class="mode">
+            <input type="checkbox" name="mode" id="darkModeToggle" />
+            <i class="bx bxs-moon"></i>
+          </label>
+        </nav>
+      </header>
+      <div class="container" id="Home">
+        <div class="main">
+          <div class="detail">
+            <h3>Hi, welcome to Website</h3>
+            <h1><span style="color: #e4e422" id="typeWriter"></span>COFFEE</h1>
+            <p>
+              In Indonesia, coffee shops are popular places for coffee
+              enthusiasts to enjoy various coffee varieties from different
+              regions of Indonesia and abroad. Coffee shops often offer a
+              comfortable and cozy atmosphere, with distinctive decor and
+              enticing coffee aromas. Besides serving coffee in various forms,
+              ranging from espresso to specialty coffee with various brewing
+              methods, coffee shops also serve as places for discussions, work,
+              or simply relaxing with friends.
+            </p>
+          </div>
+          <div class="images">
+            <img src="assets/coffe.jpg" alt="coffee" class="img-w" />
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <aside>
+          <h2 class="text-title" id="profile">Profile</h2>
+          <div class="card-profile">
+            <img src="assets/profile.jpg" alt="profile" style="width: 100%" />
+            <h2>Hary Saputra</h2>
+            <p class="title-profile">developer</p>
+            <p>Pamulang university</p>
+            <a href="http://www.linkedin.com/in/harysaputra27"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/harysptra__"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://wa.me/6287733875246"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+            <p>
+              <a href="#contact"><button>Contact</button></a>
+            </p>
+          </div>
+        </aside>
+
+        <div id="products">
+          <h1 id="products" class="text-title">My Products</h1>
+          <div class="cards">
+            <article class="cards_item">
+              <div class="card">
+                <div class="card_image1">
+                  <img src="assets/americano.jpg" alt="americano" />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Americano Coffe</h2>
+                  <p class="card_text">
+                    An Americano is a type of coffee that is made by diluting
+                    espresso<br />
+                    with hot water, giving it a similar strength to traditional
+                    brewed coffee<br />
+                    but with a different flavor profile <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="cards_item">
+              <div class="card">
+                <div class="card_image">
+                  <img src="assets/espresso.jpg" alt="espresso" />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">Espresso</h2>
+                  <p class="card_text">
+                    Espresso is a type of coffee brewed by forcing hot water
+                    under high pressure<br />
+                    through finely-ground coffee beans.<br />
+                    This process produces a concentrated and strongly flavored
+                    coffee.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="cards_item">
+              <div class="card">
+                <div class="card_image">
+                  <img src="assets/longblack.jpg" alt="longblack-coffee" />
+                </div>
+                <div class="card_content">
+                  <h2 class="card_title">long black</h2>
+                  <p class="card_text">
+                    A Long Black is a type of coffee made by pouring a double
+                    shot of espresso<br />
+                    over hot water creating a drink similar to an Americano but
+                    with a stronger<br />
+                    flavor and a thicker crema.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <form action="">
+          <h2 id="contact">Contact us</h2>
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Comment"
+          ></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <a href="http://www.linkedin.com/in/harysaputra27"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/harysptra__"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://wa.me/6287733875246"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+          </div>
+          <div class="row">
+            <ul>
+              <li><a href="#contact">Contact us</a></li>
+              <li><a href="#profile">profile</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#Home">Home</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            Copyright © 2024 Hary Saputra - All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <script src="js/script.js"></script>
+</html>
